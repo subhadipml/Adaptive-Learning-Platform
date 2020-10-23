@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        
+        .header {
+            padding: 150px;
+            text-align: center;
+            background: #1abc9c;
+            color: white;
+        }
+
+        /* Increase the font size of the heading */
+        .header h1 {
+            font-size: 80px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Home</h1>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="http://127.0.0.1:8000/">Home</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://127.0.0.1:8000/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="http://127.0.0.1:8000/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+        <div class="row">
+            <div class="header">
+                <h1>Learning Platform</h1>
+                <p>A website created by <a href="https://www.linkedin.com/in/subhadipml/" target="_blank">Subhadip Mondal</a>.</p>
+              </div>
+        </div>
+    </div>
 </body>
 </html>
